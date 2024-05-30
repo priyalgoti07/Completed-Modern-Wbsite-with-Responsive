@@ -1,0 +1,45 @@
+/* Media Query  */
+
+@media screen and (max-width: 991px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .example-area {
+        gap: 20px;
+    }
+
+    .example-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    body{
+        background-color: aqua;
+    }
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+    .primary-button {
+        width: 100%;
+    }
+}
