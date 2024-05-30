@@ -107,7 +107,7 @@ ul {
 
 /* top banner */
 .top-banner {
-    background-image: url('assets/asset\ 28.png');
+    background-image: url(assets/asset28.png);
     background-color: #4fb3d4;
     background-size: 300px;
 }
@@ -188,14 +188,14 @@ header {
 
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
-    background-image: url(assets/asset29.svg);
+    /* background-image: url(assets/asset29.svg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40% 100%;
     margin-bottom: 30px;
     /* height: 20%; */
 }
-
+/*  */
 .features-header {
     text-align: center;
 }
@@ -305,4 +305,30 @@ header {
 }
 .cta-section-container p{
     color: white;
+}
+/* footer section */
+
+footer{
+    padding-block: 80px;
+    background-color: #EBF2FA;
+}
+.link-column{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.footer-container{
+    align-items: self-start;
+    justify-content: space-between;
+}
+
+/* sub footer */
+.subfooter-container{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
 }
