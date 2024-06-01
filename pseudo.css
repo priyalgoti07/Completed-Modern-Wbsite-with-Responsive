@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+.primary-btn:link {
+    color: green;
+}
+
+.primary-btn:visited {
+    color: orchid;
+}
+
+.primary-btn:hover {
+    color: red;
+    background-color: black;
+}
+
+.primary-btn:active {
+    padding: 10px 20px;
+    border: 2px solid palevioletred;
+    color: goldenrod;
+}
+/* ===============>  pseudo-class <=============== */
+/* ul li:first-child{
+    background-color: violet;
+}
+ul li:last-child{
+    background-color: palegreen;
+} */
+
+/* nth Child */
+/* an + b */
+
+
+ul li:nth-child(2n +1) {
+    background-color: rgb(128, 128, 128);
+}
+
+/* ===============>  pseudo-element <=============== */
+
+h2::first-letter {
+    font-size: 3rem;
+}
+
+p::first-line {
+    background-color: burlywood;
+}
+
+::selection {
+    color: rgb(132, 212, 40);
+    background-color: black;
+}
+
+h3::before {
+    content: 'This is Begining';
+}
+
+h3::after {
+    content: '***********************';
+}
+
+.required::after {
+    content: "*";
+    color: red;
+    font-size: 2rem;
+}
+
+.important::after {
+    content: 'important information';
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
