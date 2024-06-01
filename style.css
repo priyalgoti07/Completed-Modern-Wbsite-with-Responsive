@@ -52,7 +52,8 @@ ul {
 /* utility classes */
 
 .small-bold-text {
-    font-size: 1vmax;
+    /* font-size: 1vmax; */
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -124,6 +125,7 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -251,6 +253,9 @@ header {
 }
 
 /* example section */
+.examples-section {
+    padding: 80px var(--padding-inline-section);
+}
 
 .example-header {
     flex-direction: column;
@@ -312,6 +317,7 @@ header {
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section-container p {
@@ -341,6 +347,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .sub-footer {
